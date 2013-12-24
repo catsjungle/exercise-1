@@ -1,0 +1,66 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+img{border:none;}
+.fl{float:left;}
+.fr{float:right;}
+ul li{list-style:none;}
+.block1{width:610px;height:50px;margin:30px auto auto;}
+.block1 a{color:#333;font:12px/22px "宋体";display:block;width:55px;height:22px;}
+.block1 a:hover{color:#f27b04;text-decoration:underline;}
+.block1 ul{display:block;overflow:hidden;}
+.block1 ul li{float:left;width:55px;height:22px;list-style:none;text-align:center;}
+.block1 ul li.active{background:#f27b04;border-radius:3px 3px 0 0;}
+.block1 ul li.active a{color:#fff;font-weight:bold;}
+.block1 ul li.active a:hover{color:#fff;text-decoration:none;}
+
+.inputBox .input1{width:470px;border:3px solid #f27b04;border-right:none;height:28px;line-height:28px;font:14px "宋体";border-radius:0 0 0 3px;float:left;}
+.inputBox .btn1{float:left;height:34px;width:133px;background:url(../images/11.png) 0 -327px;border:none;out-line:none;cursor:pointer;}
+.inputBox .btn1:hover{background-position:0 -361px;}
+.inputBox .btn1:active{background-position:0 -395px;}
+
+.block2{width:960px;margin:30px auto 30px;overflow:hidden;zoom:1;}
+.picTurn{width:670px;height:240px;position:relative;}
+.picTurn ul.picBox li{position:absolute;display:none;}
+.imgNum{width:180px;height:20px;position:absolute;top:210px;left:480px;}
+.imgNum li{width:20px;height:20px;color:#fff;text-align:center;float:left;margin-right:10px;background:#999;border-radius:12px;font:12px/20px "宋体";cursor:default;}
+.imgNum li.cur{background:#e4393c;}
+
+.month{width:248px;height:240px;border:1px solid #ddd;padding-top:10px;padding-left:10px;}
+.month ul{overflow:hidden;zoom:1;}
+.month ul li{width:50px;height:43px;float:left;border:1px solid #ddd;margin-right:10px;margin-bottom:10px;text-align:center;padding-top:7px;color:#C63;}
+.month ul li.stop{color:#fff;background:#999;}
+.monthText{color:#333;font:12px/20px "宋体";border:1px solid #ddd;margin-right:10px;height:40px;padding:0px 5px 0px 5px;}
+
+.block3{width:960px;border:1px solid #ddd;margin:0 auto 30px;}
+.block3 ul{overflow:hidden;zoom:1;}
+.block3 ul li{list-style:none;height:50px;width:119px;border-right:1px solid #ddd;border-bottom:1px solid #ddd;float:left;color:#666;text-align:center;line-height:50px;cursor:pointer;}
+.block3 ul li.now{color:#C60;border-bottom:none;background:#f5f5f5;}
+.bigTab{width:inherit;padding:10px;}
+.bigTab ul li{width:940px;height:auto;display:none;border:none;}
+
+.checkBox{border:1px solid #ddd;padding-left:100px;text-align:left;}
+.checkBox span{display:inline-block;margin-right:10px;line-height:50px;height:50px;_margin-top:25px;}
+.checkBox span i{display:inline-block;width:13px;height:13px;background:url(../images/22.png) -40px -160px;;}
+.checkBox span.check i{background-position: -40px -180px;}
+
+
+.radioBox{border:1px solid #ddd;padding-left:100px;text-align:left;margin-top:10px;}
+.radioBox span{display:inline-block;margin-right:10px;line-height:50px;height:50px;}
+.radioBox i{display:inline-block;width:14px;height:14px;background:url(../images/33.jpg) -16px -3px;;}
+.radioBox span.checked i{background-position:-2px -3px;}
+
+.block4{width:960px;margin:0 auto 200px;*padding-bottom:200px;_padding-bottom:200px;}
+.adv{width:316px;border:1px solid #ddd;overflow:hidden;}
+.advTop{width:inherit;height:76px;background:url(../images/44.jpg) no-repeat;}
+.adv ul{width:58px;margin-top:2px;display:inline;list-style:none;}
+.adv ul li{display:block;width:58px;height:30px;background:url(../images/back1.jpg) repeat-x;text-align:center;border-top:1px solid #fff;margin:0;list-style:none;float:left;}
+.adv ul li.selected{height:30px;background:url(../images/back2.jpg) repeat-x;}
+.adv ul li a{color:#666;font:12px/30px "宋体";display:block;}
+.adv ul li.selected a{color:#fff;}
+
+
+
+
+
+
+
